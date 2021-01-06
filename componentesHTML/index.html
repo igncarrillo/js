@@ -5,6 +5,72 @@
     <title>Hola Mundo!</title>
 </head>
 <body>
-    <h3>Hola mundo con HTML</h3>
+    <h3>Prueba de componentes en HTML</h3>
+    <!--Agregamos un parrafo-->
+    <p>
+        Nuevo parrafo
+    </p>
+    <!--Agregamos una tabla-->
+    <table width="200" border="1" bgcolor="#7fffd4">
+        <tr>
+            <th>
+                Titulo 1
+            </th>
+            <th>
+                Titulo 2
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Dato 11
+            </td>
+            <td>
+                Dato 12
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Dato 21
+            </td>
+            <td>
+                Dato 22
+            </td>
+        </tr>
+    </table>
+    <p></p>
+    <!--a define un hipervinculo -->
+    <a href="http://google.com.ar">Link a google</a>
+    <p/>
+    <a href="componentesTexto.html" style="color: red">Link a texto HTML</a>
+    <p/>
+    <a href="frases.html" style="color: aqua">Link a frases HTML</a>
+    <p/>
+    <a href="marcadores.html" style="color: blue">Link a marcadores HTML</a>
+    <p/>
+    Lista:
+    <!--Con select creamos una lista, con option le damos valores para elegir-->
+    <select name="Lista1">
+        <option>Valor 1</option>
+        <option>Valor 2</option>
+        <option>Valor 3</option>
+    </select>
+    <p/>
+    <!--Agregamos una imagen - alt -> texto alternativo si no se muestra la imagen -->
+    <img src="C:\Users\NachoC\Pictures\Asus_wallpaper_4k" alt="Logotipo asus rog">
+    <p/>
+    <!--agregamos un formulario -->
+    <form name="formulario 1" action="/recursoEnServidor">
+        <fieldset>
+            <legend>
+                Persona:
+            </legend>
+            Name: <input type="text" size="30" name="nombre">
+            <br/>
+            Apellido: <input type="text" size="30" name="apellido">
+        </fieldset>
+        <br/>
+        <br/>
+        <button type="submit">Enviar</button>
+    </form>
 </body>
 </html>
